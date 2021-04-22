@@ -5,7 +5,10 @@
 ## Installation
 Metamask can be installed via https://metamask.io/
 
-## Setting up
+## Create Account
+Follow the steps given by metamask to create a new account or import an existing account into metamask.
+
+## Setup custom network for GeneChain
 Click on the Network selection dropdown and then click on Custom RPC.
 
 Fill the blanks with following information.
