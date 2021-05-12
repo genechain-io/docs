@@ -1,4 +1,4 @@
-**Please note:** This wiki is for **Adenine TESTNET** right now. However, the main genenet won't differ much from adenine testnet. You can still get enough information on how to interact with the main genenet. This wiki will also be updated soon after the main genenet is released.
+**Please note:** This wiki is for **Adenine TESTNET** only. You can only get testing RNA on Adenine testnet following this guide.
 
 # How to Get Testing RNA
 
