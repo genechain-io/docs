@@ -11,14 +11,14 @@ Here is a simple guide on how to use the staking page.
 Open the [staking page for Adenine testnet](https://staking-testnet.genechain.io). 
 
 1. If Metamask is not installed, click the `Click here to install MetaMask` button or follow the steps in [[Metamask]] to install one.  
-<img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png" width="500px"/>
+    <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png" width="500px"/>
 2. If GeneChain Adenine Testnet is not configured, a prompt will be shown. 
    1. Click the `Add GeneChain Adenine testnet` button to inform MetaMask.  
-   <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network.png" width="500px"/>
+    <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network.png" width="500px"/>
    2. Click `Approve` in MetaMask to approve this action.  
-   <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve.png" width="500px"/>
+    <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve.png" width="500px"/>
    3. Click `Switch network` to switch to GeneChain Adenine testnet.  
-   <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-swtich-network.png" width="500px"/>
+    <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-switch-network.png" width="500px"/>
 
 ## Authorize the staking page
 You need to authorize the staking page to use your account to interact with the Ribose system contract.
