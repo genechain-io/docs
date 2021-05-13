@@ -1,6 +1,6 @@
-# How to Run A Fullnode on Genechain
-
 **Please note:** This wiki is for **Adenine TESTNET** right now. However, the main genenet won't differ much from adenine testnet. You can still get enough information on how to interact with the main genenet. This wiki will also be updated soon after the main genenet is released.
+
+# How to Run A Fullnode on GeneChain
 
 ## Quick Start
 ### Step 1: Build `geneth` from source
@@ -17,7 +17,7 @@ make geneth
 ```
 
 ### Step 2: Launch `geneth` to start a full node
-Running a full node on the Adenine test network is as simple as running
+Running a full node on the Adenine testnet is as simple as running
 
 ```shell
 $ build/bin/geneth --adenine console

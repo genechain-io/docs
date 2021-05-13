@@ -41,14 +41,14 @@ Now you will have your wallet and account initialized.
 
 ## Setup Custom Network for GeneChain
 
-You can visit https://faucet.genechain.io and click add network to setup custom network.
+You can visit https://staking-testnet.genechain.io or https://faucet.genechain.io and click add network to setup custom network.
 
 Or, you can follow the following steps to set it up by your self.
 
 1. Open Metamask, and select "Custom RPC" from the Network Dropdown.  
    <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/custom-rpc.png" width="400px"/>
 2. Fill the blanks with following information.
-  * Network Name: Genechain Adenine Testnet
+  * Network Name: GeneChain Adenine Testnet
   * New RPC URL: https://rpc-testnet.genechain.io
   * Chain ID: 8080
   * Currency Symbol: RNA
