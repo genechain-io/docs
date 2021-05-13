@@ -1,5 +1,3 @@
-**Please note:** This wiki is for **Adenine TESTNET** right now. However, the main genenet won't differ much from adenine testnet. You can still get enough information on how to interact with the main genenet. This wiki will also be updated soon after the main genenet is released.
-
 # Ribose Staking HowTo
 Staking can be accomplished by calling the `stake` method of the Ribose system contract. You can find more information in the contract [source code](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol).
 

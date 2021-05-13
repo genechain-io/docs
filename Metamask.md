@@ -1,5 +1,3 @@
-**Please note:** This wiki is for **Adenine TESTNET** right now. However, the main genenet won't differ much from adenine testnet. You can still get enough information on how to interact with the main genenet. This wiki will also be updated soon after the main genenet is released.
-
 # How to Setup Metamask For GeneChain
 
 Setting up Metamask for GeneChain can be achieved in three steps
@@ -41,17 +39,24 @@ Now you will have your wallet and account initialized.
 
 ## Setup Custom Network for GeneChain
 
-You can visit https://staking-testnet.genechain.io or https://faucet.genechain.io and click add network to setup custom network.
+### Automatic setup
+***(Main genenet guides will be updated soon)***
 
+For Adenine Testnet, You can visit https://staking-testnet.genechain.io or https://faucet.genechain.io and click add network to setup custom network.
+
+### Manual setup
 Or, you can follow the following steps to set it up by your self.
 
 1. Open Metamask, and select "Custom RPC" from the Network Dropdown.  
    <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/custom-rpc.png" width="400px"/>
 2. Fill the blanks with following information.
-  * Network Name: GeneChain Adenine Testnet
-  * New RPC URL: https://rpc-testnet.genechain.io
-  * Chain ID: 8080
-  * Currency Symbol: RNA
-  * Block Explorer URL: https://scan-testnet.genechain.io
+  * Main Genenet
+    * ***(Coming soon)***
+  * Adenine Testnet
+    * Network Name: GeneChain Adenine Testnet
+    * New RPC URL: https://rpc-testnet.genechain.io
+    * Chain ID: 8080
+    * Currency Symbol: RNA
+    * Block Explorer URL: https://scan-testnet.genechain.io
 
 Click Save and all are set now!
