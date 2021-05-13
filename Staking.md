@@ -30,7 +30,8 @@ Then click `Connect` to finish the connection.
 <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-connect.png" width="500px"/>
 
 ## Select a candidate to stake
-You can now find all available candidates in `Top Candidates` section and select a candidate and click `stake` along with the candidate to start staking.
+You can now find all available candidates in `Top Candidates` section and select a candidate and click `stake` along with the candidate to start staking.  
+<img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-candidates.png" width="500px"/><img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-stake.png" width="400px"/>
 
 Note:
 1. You can stake either RNA or ARM or both. You can stake with out ARM, but if you want to, you need to stake at least 3 ARMs.
