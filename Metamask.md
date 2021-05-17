@@ -53,9 +53,8 @@ Now you will have your wallet and account initialized.
 ## Setup Custom Network for GeneChain
 
 ### Automatic setup
-***(Main genenet guides will be updated soon)***
 
-For Adenine Testnet, You can visit https://staking-testnet.genechain.io or https://faucet.genechain.io and click add network to setup custom network.
+You can visit https://staking.genechain.io and click `Add GeneChain network` to setup custom network.
 
 ### Manual setup
 Or, you can follow the following steps to set it up by your self.
