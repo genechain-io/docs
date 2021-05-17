@@ -1,21 +1,35 @@
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+**Table of Contents**
+<!-- code_chunk_output -->
+
+- [Ribose Staking HowTo](#ribose-staking-howto)
+  - [Navigate to the staking page](#navigate-to-the-staking-page)
+  - [Authorize the staking page](#authorize-the-staking-page)
+  - [Select a candidate to stake](#select-a-candidate-to-stake)
+  - [Withdraw mining rewards](#withdraw-mining-rewards)
+
+<!-- /code_chunk_output -->
+
 # Ribose Staking HowTo
 Staking can be accomplished by calling the `stake` method of the Ribose system contract. You can find more information in the contract [source code](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol).
 
-A simpler way is to use the [staking page for Adenine testnet](https://staking-testnet.genechain.io). The staking page for main genenet will be available as soon as main genenet is released.
+A simpler way is to use the [staking page](https://staking.genechain.io). The staking page for Adenine testnet is [here](https://staking-testnet.genechain.io).
 
 Here is a simple guide on how to use the staking page.
 
 ## Navigate to the staking page
-Open the [staking page for Adenine testnet](https://staking-testnet.genechain.io). 
+Open the [staking page](https://staking.genechain.io). 
 
 1. If Metamask is not installed, click the `Click here to install MetaMask` button or follow the steps in [[Metamask]] to install one.  
     <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png" width="500px"/>
 2. If GeneChain Adenine Testnet is not configured, a prompt will be shown. 
-   1. Click the `Add GeneChain Adenine testnet` button to inform MetaMask.  
+   1. Click the `Add GeneChain network` button to inform MetaMask of adding GeneChain network.  
       <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network.png" width="500px"/>
-   2. Click `Approve` in MetaMask to approve this action.  
-      <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve.png" width="500px"/>
-   3. Click `Switch network` to switch to GeneChain Adenine testnet.  
+   2. Scroll down or click close to show `Approve` button if not shown.  
+      <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve1.png" width="500px"/>
+   3. Click `Approve` in MetaMask to approve this action.  
+      <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve2.png" width="500px"/>
+   4. Click `Switch network` to switch to GeneChain.  
       <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-switch-network.png" width="500px"/>
 
 ## Authorize the staking page

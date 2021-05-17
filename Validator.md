@@ -1,3 +1,18 @@
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+**Table of Contents**
+<!-- code_chunk_output -->
+
+- [Ribose Validator HowTo](#ribose-validator-howto)
+  - [Run a node in mining mode](#run-a-node-in-mining-mode)
+    - [Step 1: Create an account as miner](#step-1-create-an-account-as-miner)
+    - [Step 2: Start a node with mining enabled](#step-2-start-a-node-with-mining-enabled)
+  - [Register as a validator candidate](#register-as-a-validator-candidate)
+  - [Others](#others)
+    - [Set block reward receiver](#set-block-reward-receiver)
+    - [Withdraw miner profits](#withdraw-miner-profits)
+
+<!-- /code_chunk_output -->
+
 # Ribose Validator HowTo
 
 To become a validator, first you need to run a node in mining mode with an account unlocked. Then register this account as a candidate for validators. After registration, you need to earn enough staking power to become an active validator or a top candidate.

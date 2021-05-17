@@ -1,3 +1,16 @@
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+**Table of Contents**
+<!-- code_chunk_output -->
+
+- [How to Setup Metamask For GeneChain](#how-to-setup-metamask-for-genechain)
+  - [Installation](#installation)
+  - [Create Account](#create-account)
+  - [Setup Custom Network for GeneChain](#setup-custom-network-for-genechain)
+    - [Automatic setup](#automatic-setup)
+    - [Manual setup](#manual-setup)
+
+<!-- /code_chunk_output -->
+
 # How to Setup Metamask For GeneChain
 
 Setting up Metamask for GeneChain can be achieved in three steps
@@ -51,12 +64,16 @@ Or, you can follow the following steps to set it up by your self.
    <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/custom-rpc.png" width="400px"/>
 2. Fill the blanks with following information.
   * Main Genenet
-    * ***(Coming soon)***
+    * Network Name: GeneChain
+    * New RPC URL: https://rpc.genechain.io
+    * Chain ID: 80
+    * Currency Symbol: RNA
+    * Block Explorer URL: https://scan.genechain.io
   * Adenine Testnet
     * Network Name: GeneChain Adenine Testnet
     * New RPC URL: https://rpc-testnet.genechain.io
     * Chain ID: 8080
-    * Currency Symbol: RNA
+    * Currency Symbol: tRNA
     * Block Explorer URL: https://scan-testnet.genechain.io
 
 Click Save and all are set now!

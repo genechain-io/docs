@@ -1,3 +1,18 @@
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+**Table of Contents**
+<!-- code_chunk_output -->
+
+- [How to Run A Fullnode on GeneChain](#how-to-run-a-fullnode-on-genechain)
+  - [Quick Start](#quick-start)
+    - [Step 1: Build `geneth` from source](#step-1-build-geneth-from-source)
+    - [Step 2: Launch `geneth` to start a full node](#step-2-launch-geneth-to-start-a-full-node)
+    - [Main Genenet](#main-genenet)
+    - [Adenine Testnet](#adenine-testnet)
+  - [Fullnode Benefits](#fullnode-benefits)
+  - [Sync Mode](#sync-mode)
+
+<!-- /code_chunk_output -->
+
 # How to Run A Fullnode on GeneChain
 
 ## Quick Start
