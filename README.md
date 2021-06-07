@@ -1,10 +1,14 @@
-# Home
+---
+description: >-
+  Welcome to GeneChain's Documentation. You can find core concepts, user guides,
+  and technical documentations here.
+---
 
-Welcome to GeneChain's Documentation.
+# Getting Started
 
 GeneChain is a decentralized, efficient, and secure public chain, which realizes smart contract compatibility on the basis of supporting high-performance transactions. The GeneChain platform is designed to provide global developers with low-cost innovation facilities and stable infrastructure services.
 
-For more details about GeneChain, see [Introduction to GeneChain](user-manual/introduction.md).
+For more details about GeneChain, see [Introduction to GeneChain](introduction.md).
 
 ## Main contents:
 

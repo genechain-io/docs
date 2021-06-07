@@ -6,7 +6,7 @@
 
 Be sure that Go 1.13+ is already installed. Then run
 
-```text
+```bash
 # Clone the geneth repo
 git clone https://github.com/genechain-io/geneth
 # Enter the folder containing geneth source
@@ -17,22 +17,22 @@ make geneth
 
 ### Step 2: Launch `geneth` to start a full node
 
-### Main Genenet
+#### Main Genenet
 
 Main genenet will be available as soon as it is released. Running a full node on the main genenet is as simple as running
 
-```text
-$ build/bin/geneth console
+```bash
+build/bin/geneth console
 ```
 
 This will start the geneth client with access to the main genenet.
 
-### Adenine Testnet
+#### Adenine Testnet
 
 Running a full node on the Adenine testnet can be accomplished by appending a `--adenine` flag
 
-```text
-$ build/bin/geneth --adenine console
+```bash
+build/bin/geneth --adenine console
 ```
 
 This will start the geneth client with access to the Adenine testnet.

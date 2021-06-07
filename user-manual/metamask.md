@@ -1,6 +1,10 @@
-# How to Use Metamask
+# How to Use MetaMask
 
-Setting up Metamask for GeneChain can be achieved in three steps 1. [Installation](metamask.md#Installation) 2. [Create an account](metamask.md#create-account) 3. [Setup custom network for GeneChain](metamask.md#setup-custom-network-for-genechain)
+Setting up Metamask for GeneChain can be achieved in three steps
+
+1. [Installation](metamask.md#Installation)
+2. [Create an account](metamask.md#create-account)
+3. [Setup custom network for GeneChain](metamask.md#setup-custom-network-for-genechain)
 
 ## Installation
 

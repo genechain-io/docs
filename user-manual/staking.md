@@ -2,19 +2,17 @@
 
 Staking can be accomplished by calling the `stake` method of the Ribose system contract. You can find more information in the contract [source code](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol).
 
-A simpler way is to use the [staking page](https://staking.genechain.io). The staking page for Adenine testnet is [here](https://staking-testnet.genechain.io).
-
-Here is a simple guide on how to use the staking page.
+A simpler way is to use the [staking page](https://staking.genechain.io). Here is a simple guide on how to use the staking page.
 
 ## Navigate to the staking page
 
 Open the [staking page](https://staking.genechain.io).
 
-1. If Metamask is not installed, click the `Click here to install MetaMask` button or follow the steps in \[\[Metamask\]\] to install one.  
+1. If MetaMask is not installed, click the `Click here to install MetaMask` button or follow the steps in [MetaMask](metamask.md) to install one.  
 
     ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png)
 
-2. If GeneChain Adenine Testnet is not configured, a prompt will be shown. 
+2. If MetaMask is not configured for GeneChain, a prompt will be shown. 
    1. Click the `Add GeneChain network` button to inform MetaMask of adding GeneChain network.  
 
       ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network.png)

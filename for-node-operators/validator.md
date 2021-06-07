@@ -2,7 +2,7 @@
 
 To become a validator, first you need to run a node in mining mode with an account unlocked. Then register this account as a candidate for validators. After registration, you need to earn enough staking power to become an active validator or a top candidate.
 
-This page covers the first two steps. [Staking](../user-manual/staking.md) page covers the last step, you can learn how staking power is calculated there. If you want to learn more about how validation works in GeneChain, please refer to \[\[Ribose Consensus Protocol\]\].
+This page covers the first two steps. [Staking](../user-manual/staking.md) page covers the last step, you can learn how staking power is calculated there. If you want to learn more about how validation works in GeneChain, please refer to [Ribose Consensus Protocol](../for-developers/ribose-consensus-protocol.md).
 
 ## Run a node in mining mode
 
@@ -12,13 +12,13 @@ An account is needed to start mining. This account is used to produce new blocks
 
 You can import an existing account with the following command
 
-```text
+```bash
 build/bin/geneth account import <path/to/private_key_file>
 ```
 
 Or generate a new account by running
 
-```text
+```bash
 build/bin/geneth account new
 ```
 
@@ -26,7 +26,7 @@ build/bin/geneth account new
 
 Mining can be enabled by executing the `geneth` client with both `--mine` flag and `--unlock` flag. Remember to specify the account address mentioned in step 1 after the `--unlock` flag.
 
-```text
+```bash
 # For mainnet
 build/bin/geneth --mine --unlock <your_miner_account>
 

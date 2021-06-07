@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Home](README.md)
+* [Getting Started](README.md)
+* [Introduction](introduction.md)
 
 ## User Manual
 
-* [Introduction](user-manual/introduction.md)
-* [How to Use Metamask](user-manual/metamask.md)
+* [How to Use MetaMask](user-manual/metamask.md)
 * [Testnet Faucet Guide](user-manual/testnet_faucet.md)
 * [Staking Guide](user-manual/staking.md)
 
