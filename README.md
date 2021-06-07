@@ -21,8 +21,8 @@ For node operators
 
 For developers
 
-* [Ribose Consensus Protocol](https://github.com/genechain-io/docs/tree/8d95fbd6605dd6367e8035826f00df7d7da44bfe/development/ribose_consensus_protocol.md) - Details of Ribose, the consensus engine used by GeneChain
-* [System Contracts](https://github.com/genechain-io/docs/tree/8d95fbd6605dd6367e8035826f00df7d7da44bfe/development/system_contracts.md) - Addresses and descriptions of GeneChain system contracts
+* [Ribose Consensus Protocol](for-developers/ribose_consensus_protocol.md) - Details of Ribose, the consensus engine used by GeneChain
+* [System Contracts](for-developers/system_contracts.md) - Addresses and descriptions of GeneChain system contracts
 
 Sidebar also lists all pages.
 
