@@ -21,8 +21,8 @@ For node operators
 
 For developers
 
-* [Ribose Consensus Protocol](for-developers/ribose_consensus_protocol.md) - Details of Ribose, the consensus engine used by GeneChain
-* [System Contracts](for-developers/system_contracts.md) - Addresses and descriptions of GeneChain system contracts
+* [Ribose Consensus Protocol](for-developers/ribose-consensus-protocol.md) - Details of Ribose, the consensus engine used by GeneChain
+* [System Contracts](for-developers/system-contracts.md) - Addresses and descriptions of GeneChain system contracts
 
 Sidebar also lists all pages.
 
