@@ -1,37 +1,37 @@
-# Introduction
+# GeneChain简介
 
-GeneChain is a decentralized, efficient, and secure public chain, which realizes smart contract compatibility on the basis of supporting high-performance transactions. The GeneChain platform is designed to provide global developers with low-cost innovation facilities and stable infrastructure services.
+GeneChain 是⼀个去中⼼化⾼效安全公链，在⽀撑⾼性能交易的基础上，实现智能合约的兼容。GeneChain平台宗旨是为全球开发者提供低成本的创新设施和稳定的基础服务。
 
-## Consensus Algorithm
 
-GeneChain’s consensus algorithm is Ribose, which is an algorithm based on the DPoS consensus mechanism. It nicely balances decentralization and performance, and has the features of low transaction cost, low transaction latency and high transaction concurrency; the node’s incentive is fees for on-chain transactions; fees are RNA; the maximum number of validators supported is 21; it provides rewards for miners; and provides rewards for community governors.
+## 共识算法
 
-## Validator
+GeneChain的共识算法为Ribose，是一种基于DPoS共识机制的算法，能够很好的兼顾去中心化和性能，具有交易成本低、交易延时低、交易并发⾼等特点；节点的激励为链上交易的⼿续费，交易费为 RNA；⽀持的最⼤的Validator数量 21个；为矿工提供奖励；为社区治理者提供奖励。
 
-Any user can run for active validator through the pledge, and GeneChain picks the highest-ranked ones as the active validator through the system contract every once in a while.
+## 验证人
 
-## Active Validator
+任何用户都可以通过质押竞选活跃验证人，每隔一段时间GeneChain会通过系统合约选取排名最高的验证人为活跃验证人
 
-The current group of validators responsible for packaging and producing blocks, with an upper limit of 21.
+## 活跃验证人
 
-## Block Producer
+即当前负责打包出块的一组验证人，上限为21个。
 
-Nodes responsible for producing and packaging blocks for transactions on the chain.
+## 出块节点
 
-## Pledging Mining
+负责对链上交易进行出块打包的节点。
 
-With any account, any number of pledges can be made against the validator to support a validator and share the mining proceeds. If you want to retrieve the system Token that has been pledged, you need to send a declarative transaction to the system contract to unstake. After waiting for a period of time, the system contact is called again to withdraw the pledge and retrieve the pledged system Token. Punishment: when it is found that the validator has not produced the block in advance, it will automatically call the system contract at the end of the block to count the validator. When the count reaches the forfeiture threshold, all the validator's income is forfeited. When the count reaches the removal threshold, the validator will be removed from the active validator list and will be disqualified.
 
-## Economic Model
+## 质押挖矿
 
-The native token on the chain is RNA; the transaction consumes RNA as an on-chain transaction fee; the initial RNA is obtained through pre-sale, after which RNA will be released through block rewards in a decreasing manner year by year; on-chain transaction fees and additional RNA issued by the system will be rewarded for the node's block production.
+任何账户，都可以对验证人进行任意数量的质押操作来支持某个验证人并分享挖矿收益。 如果想取回已质押的系统Token，需要向系统合约发送解除质押的声明交易；等待一段时间后再次调用系统合约，发送提取质押的交易，将质押的系统Token取回；惩罚措施：当发现验证人没有按照预先进行出块的时候，就会在这个块结束时，自动调用系统合约，对验证人进行计数。当计数达到罚没阈值时，罚没验证人的所有收入。当计数达到移除阈值时，将验证人移除出活跃验证人列表，同时取消验证人资格。
 
-## High Performance, Low Cost
+## 经济模型
 
-* TPS\(Transaction Per Second\)：2000+
-* Block Production Time: 3s
+链上原生代币是RNA；交易消耗RNA作为链上交易手续费； 通过质押RNA来成为验证人节点，或者质押RNA，ARM给其他验证人节点。节点按照质押比例分配奖励，奖励是链上交易手续费和系统增发RNA。
 
-## Distributed Governance
+## 高性能，低成本
 
-Block producers rely on pledges of all users to run for public chain nodes. Users can become validators or support other validators by staking RNA and ARM. The validators can set the transfer ratio of block rewards to attract more users to pledge their own nodes, and the transfer rewards will be distributed according to the pledge ratio of all users under this validator.
+目前阶段，实测 GeneChain TPS 可以达到 2000+，出块时间：3s。
 
+## 分布式治理
+
+出块节点依赖所有用户的质押来竞选公链节点。用户通过质押RNA和ARM来成为验证人或支持其他验证人，验证人可设置出块奖励的出让比例来吸引更多用户给自己节点质押，出让的奖励将按照此验证人下所有用户的质押比例进行分配。

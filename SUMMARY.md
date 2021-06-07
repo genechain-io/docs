@@ -1,21 +1,21 @@
-# Table of contents
+# 目录
 
-* [Home](README.md)
+* [首页](README.md)
 
-## User Manual
+## 用户手册
 
-* [Introduction](user-manual/introduction.md)
-* [How to Use Metamask](user-manual/metamask.md)
-* [Testnet Faucet Guide](user-manual/testnet_faucet.md)
-* [Staking Guide](user-manual/staking.md)
+* [GeneChain简介](user-manual/introduction.md)
+* [如何配置Metamask](user-manual/metamask.md)
+* [测试网水龙头](user-manual/testnet_faucet.md)
+* [质押挖矿](user-manual/staking.md)
 
-## For node operators
+## 节点运行者
 
-* [Run A Fullnode](for-node-operators/fullnode.md)
-* [Validator HowTo](for-node-operators/validator.md)
+* [运行一个全数据节点](for-node-operators/fullnode.md)
+* [验证人指南](for-node-operators/validator.md)
 
-## For developers
+## 开发文档
 
-* [Ribose Consensus Protocol](for-developers/ribose-consensus-protocol.md)
-* [System Contracts](for-developers/system-contracts.md)
+* [Ribose共识机制](for-developers/ribose-consensus-protocol.md)
+* [系统合约](for-developers/system-contracts.md)
 

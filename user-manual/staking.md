@@ -1,54 +1,48 @@
-# Staking Guide
+# Ribose质押挖矿说明
 
-Staking can be accomplished by calling the `stake` method of the Ribose system contract. You can find more information in the contract [source code](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol).
+质押可以通过调用 Ribose 系统合约的 `stake` 方法来完成。你可以通过[合约的开源代码](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol)来了解更多的信息。
 
-A simpler way is to use the [staking page](https://staking.genechain.io). The staking page for Adenine testnet is [here](https://staking-testnet.genechain.io).
+一个更简单的方法是通过 [质押页面（staking page）](https://staking.genechain.io)来完成质押。Adenine 测试网的质押页面在[这里](https://staking-testnet.genechain.io)。
 
-Here is a simple guide on how to use the staking page.
+下文是质押页面的使用说明。
 
-## Navigate to the staking page
+## 导航到质押页面
 
-Open the [staking page](https://staking.genechain.io).
+打开 [质押页面(staking page)](https://staking.genechain.io)。
 
-1. If Metamask is not installed, click the `Click here to install MetaMask` button or follow the steps in \[\[Metamask\]\] to install one.  
+1. 如果没有安装 MetaMask, 点击 `Click here to install MetaMask` 按钮或者按照 [在 Metamask 钱包中配置 GeneChain](../metamask/)的说明来安装.  
+    <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png" width="500px"/>
+2. 如果 GeneChain 网络没有配置，辉县市如下提示： 
+   1. 点击 `Add GeneChain network` 按钮来通知 MetaMask 添加 GeneChain 网络。
+      <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network.png" width="500px"/>
+   2. 如果 `Approve` 没有显示，向下滚动或者点击 `close` 来显示 `Approve` 按钮。
+      <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve1.png" width="500px"/>
+   3. 在 MetaMask 点击 `Approve` 按钮来批准这个操作。 
+      <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve2.png" width="500px"/>
+   4. 点击 `Switch network` 来切换到 GeneChain 网络。 
+      <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-switch-network.png" width="500px"/>
 
-    ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png)
+## 授权质押页面
 
-2. If GeneChain Adenine Testnet is not configured, a prompt will be shown. 
-   1. Click the `Add GeneChain network` button to inform MetaMask of adding GeneChain network.  
+你需要授权质押页面来使用你的 MetaMask 账户来与 Ribose 系统合约交互。
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network.png)
+你第一次打开质押页面的时候会自动提示授权，只需选择你希望使用的账户并点击 `Next`。
+<img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-select-account.png" width="500px"/>
 
-   2. Scroll down or click close to show `Approve` button if not shown.  
+然后点击 `Connect` 来完成链接。
+<img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-connect.png" width="500px"/>
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve1.png)
+## 选择一个候选人来质押
 
-   3. Click `Approve` in MetaMask to approve this action.  
+你可以在 `Top Candidates` 部分 找到所有可质押的候选人列表。选择一个候选人并点击 `stake` 来开始质押。
+<img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-candidates.png" width="500px"/><img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-stake.png" width="400px"/>
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve2.png)
+提示:
 
-   4. Click `Switch network` to switch to GeneChain.  
+1. 你可以质押 RNA 和 ARM 中的一种或两种，你可以不质押ARM，但是一旦你想质押 ARM，必须质押不小于 3 个。
+2. 如果你想质押 ARM，你需要授权(approve) Ribose 系统合约来使用你的 ARM，这需要点击 ARM 输入框旁边 `Approve` 按钮完成。
+3. 在质押后的 86400 个区块，也就是约 72 个小时之内，不能进行解押操作。
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-switch-network.png)
+## 领取质押收益
 
-## Authorize the staking page
-
-You need to authorize the staking page to use your account to interact with the Ribose system contract.
-
-This is automatically prompted the first time you open the staking page. Just select the account you want to use and click `Next`.  
-![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-select-account.png)
-
-Then click `Connect` to finish the connection.  
-![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-connect.png)
-
-## Select a candidate to stake
-
-You can now find all available candidates in `Top Candidates` section and select a candidate and click `stake` along with the candidate to start staking.  
-![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-candidates.png)![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-stake.png)
-
-Note: 1. You can stake either RNA or ARM or both. You can stake with out ARM, but if you want to, you need to stake at least 3 ARMs. 2. If you want to stake your ARM, you need to approve the Ribose system contract to use your ARM by clicking the `Approve` next to the ARM input while staking. 3. You can not unstake within 86400 blocks which is about 72 hours since your last staking.
-
-## Withdraw mining rewards
-
-After staking a candidate, you'll find your unsettled profit and estimated daily reward in `Staked Candidates` section. You can settle your unsettled reward one by one or just click `Settle All Unsettled Rewards`. Then you will find your settled profit on right side, and you can click `Withdraw` bellow to withdraw you settled profit into your balance.
-
+为某个候选人质押之后，你可以在 `Staked Candidates` 部分找到你的未结算收益(unsettled profit)和预估日收益(estimated daily reward)。你可以逐个结算(settle)你的未结算收益，或者点击`Settle All Unsettled Rewards`按钮结算所有收益。然后你将在右侧找到你的已结算收益(settled profit)，并可以通过点击 `Withdraw` 领取你的已结算收益到你的账户余额。

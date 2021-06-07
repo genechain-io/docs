@@ -1,15 +1,12 @@
-# Testnet Faucet Guide
+# 如何获得测试网 RNA 代币
 
-**Please note:** This page is for **Adenine TESTNET** only. Tokens on testnet have no value and you can get them for free.
+**请注意:** 请注意，本文只适用于**Adenine测试网**，测试网上的代币不具备任何价值。
 
-You can get testing RNA on Adenine testnet following this guide.
+通过本指南你可以得到 Adenine 测试网的 RNA 测试代币.
 
-1. Open Metamask, or visit \[\[Metamask\]\] and follow the steps to install and setup Metamask if you do not have one yet.
-2. Click your account to copy your account address.  
-
-   ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/copy-address.png)
-
-3. Visit [Faucet](https://faucet.genechain.io) and paste your account address to get testing RNA.  
-
-   ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/faucet.png)
+1. 打开 Metamask, 如果没有安装 Metamask，请访问 [在 Metamask 钱包中配置 GeneChain](../metamask) 并按照文中的说明安装配置 Metamask 钱包。
+2. 点击你的账户来复制账户地址  
+   <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/copy-address.png" width="300px"/>
+3. 访问 [水龙头(Faucet)](https://faucet.genechain.io) 并粘贴你的地址来获取测试 RNA 代币.  
+   <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/faucet.png" width="300px"/>
 

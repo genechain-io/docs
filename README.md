@@ -1,28 +1,27 @@
-# Home
+# 主页
 
-Welcome to GeneChain's Documentation.
+欢迎访问 GeneChain 文档。
 
-GeneChain is a decentralized, efficient, and secure public chain, which realizes smart contract compatibility on the basis of supporting high-performance transactions. The GeneChain platform is designed to provide global developers with low-cost innovation facilities and stable infrastructure services.
+GeneChain 是⼀个去中⼼化⾼效安全公链，在⽀撑⾼性能交易的基础上，实现智能合约的兼容。GeneChain平台宗旨是为全球开发者提供低成本的创新设施和稳定的基础服务。
 
-For more details about GeneChain, see [Introduction to GeneChain](user-manual/introduction.md).
+关于 GeneChain 的详细介绍，请阅读[GeneChain简介](user-manual/introduction.md)。
 
-## Main contents:
+## 主要内容:
 
-For common users
+用户手册
 
-* [Metamask](user-manual/metamask.md) - How to setup metamask to get access to Genechain
-* [Testnet Faucet](user-manual/testnet_faucet.md) - How to get Testing RNA on GeneChain Adenine Testnet
-* [Staking](user-manual/staking.md) - How to stake a validator and share mining rewards
+* [如何配置Metamask](user-manual/metamask.md) - 如何设置 Metamask 以访问 GeneChain
+* [测试网水龙头](user-manual/testnet_faucet.md) - 如何在GeneChain Adenine 测试网上获取测试RNA
+* [质押挖矿](user-manual/staking.md)- 如何质押验证者并分享挖矿奖励
 
-For node operators
+节点运行者
 
-* [Fullnode](for-node-operators/fullnode.md) - How to run a full node for GeneChain
-* [Validator](for-node-operators/validator.md) - How to participate as a validator
+* [运行一个全数据节点](for-node-operators/fullnode.md)- 如何运行一个GeneChain全数据节点
+* [验证人指南](for-node-operators/validator.md)- 如何成为一个验证者
 
-For developers
+开发文档
 
-* [Ribose Consensus Protocol](https://github.com/genechain-io/docs/tree/8d95fbd6605dd6367e8035826f00df7d7da44bfe/development/ribose_consensus_protocol.md) - Details of Ribose, the consensus engine used by GeneChain
-* [System Contracts](https://github.com/genechain-io/docs/tree/8d95fbd6605dd6367e8035826f00df7d7da44bfe/development/system_contracts.md) - Addresses and descriptions of GeneChain system contracts
+* [Ribose共识机制](for-developers/ribose-consensus-protocol.md)- GeneChain使用的共识引擎Ribose的详细信息
+* [系统合约](for-developers/system-contracts.md)- GeneChain 系统合约的地址和描述
 
-Sidebar also lists all pages.
-
+侧边导航列有更多的文档导航。

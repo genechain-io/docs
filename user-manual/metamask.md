@@ -1,84 +1,74 @@
-# How to Use Metamask
+# 如何配置Metamask
 
-Setting up Metamask for GeneChain can be achieved in three steps 1. [Installation](metamask.md#Installation) 2. [Create an account](metamask.md#create-account) 3. [Setup custom network for GeneChain](metamask.md#setup-custom-network-for-genechain)
+在 Metamask 中配置 GeneChain 可以通过以下 3 个步骤完成
 
-## Installation
+1. [安装](#安装)
+2. [创建账号](#创建账号)
+3. [配置GeneChain网络](#配置GeneChain网络)
 
-Metamask can be installed via [https://metamask.io/](https://metamask.io/) . Following is a simple guide from [Radarlab](https://wiki.radarlab.org/en/defi/metamask_101/) on how to install Metamask.
+## 安装
 
-1. Open [https://metamask.io](https://metamask.io) and click your browser type to get proper version of Metamask for you browser.  
 
-   ![](https://wiki.radarlab.org/assets/images/defi/uni101/a01_metamask_download.png)
+Metamask 可以通过 [https://metamask.io/](https://metamask.io/) 安装. 可以参考如下网址 [《雷达百科：MetaMask 入门》](https://wiki.radarlab.org/zh/defi/metamask_101/) 来详细了解如何安装 Metamask.
 
-2. Let's Google Chrome as an example, but the workflow is the same for all browsers. Click `Chrome` to install MetaMask as a Google Chrome extension.
-3. Click `Add to Chrome`.  
+1. 打开网址 [https://metamask.io](https://metamask.io) 并根据你的浏览器类型进行安装。
+   <img src="https://wiki.radarlab.org/assets/images/defi/uni101/a01_metamask_download.png" width="550px"/>
+2. 我们已 Google Chrome 为例，其他浏览器安装流程也基本相同. 点击 `Chrome` 来安装 MetaMask 的 Chrome 扩展.
+3. 点击 `Add to Chrome`.  
+   <img src="https://wiki.radarlab.org/assets/images/defi/uni101/a02_metamask_chrome.png" width="550px"/>
+4. 点击 `Add Extension`.
 
-   ![](https://wiki.radarlab.org/assets/images/defi/uni101/a02_metamask_chrome.png)
+这就完成了，你已经成功安装了 MetaMask 扩展。
 
-4. Click `Add Extension`.
+## 创建账号
 
-That’s it! You have successfully installed MetaMask extension!
+参照 MataMask 提示的步骤来创建一个新的账号或者导入已经存在的账号到 Metamask 钱包。下面是一个简要的指导说明。
 
-## Create Account
 
-Follow the steps given by Metamask to create a new account or import an existing account into Metamask. Following is also the simple guide.
+1. 点击浏览器右上角的 MetaMask 图标来打开扩展程序。
+2. 点击 `Get Started` 来开始使用 Metamask.  
+   <img src="https://wiki.radarlab.org/assets/images/defi/uni101/a03_metamask_get_started.png" width="550px"/>
+3. 如果你已经有密钥短语，你可以通过导入密钥短语来初始化钱包，如果没有，请点击 `Create a Wallet`。
+   <img src="https://wiki.radarlab.org/assets/images/defi/uni101/a04_metamask_create_a_wallet.png" width="550px"/>
+4. 在 `Help Us Improve MetaMask` 页面, 点击 `No Thanks` 或 `I Agree`, 这将决定你收否要分享非敏感数据给 MetaMask 的开发者来提升用户体验。
+   <img src="https://wiki.radarlab.org/assets/images/defi/uni101/a05_metamask_agreement.png" width="550px"/>
+5. 你将被提示创建一个新的密码。 创建一个强度足够的密码并点击 `Create`.  
+   <img src="https://wiki.radarlab.org/assets/images/defi/uni101/a06_metamask_new_password.png" width="550px"/>
+6. 这里会提示你安全的保存你的加密短语。在确保周围环境安全的前提下点击 `CLICK HERE TO REVEAL SECRET WORDS` 来显示密钥短语。用安全的方式保存密钥短语。
+*注意: 这是回复你的钱包账户的唯一方法。任何用于这个密钥短语的人都可以用这个密钥短语来恢复你的钱包并操作其中的资产。*  
+   <img src="https://wiki.radarlab.org/assets/images/defi/uni101/a07_metamask_backup_phrase.png" width="550px"/>
+7. 通过按顺序选择之前你记录的密钥短语来进行确认。完成后，点击 `Confirm`。
+   <img src="https://wiki.radarlab.org/assets/images/defi/uni101/a09_metamask_confirm_phrase1.png" width="550px"/>
 
-1. Click on the MetaMask icon in the upper right corner to open the extension.
-2. Click `Get Started` to start using Metamask.  
+现在，你就有了一个初始化完毕的钱包，和初始化完成的账户。
 
-   ![](https://wiki.radarlab.org/assets/images/defi/uni101/a03_metamask_get_started.png)
+## 配置GeneChain网络
 
-3. If you already have a seed phrase, you can initialize it by importing the seed phrase. If you don’t have a seed phrase, click `Create a Wallet`.  
+### 自动设置
 
-   ![](https://wiki.radarlab.org/assets/images/defi/uni101/a04_metamask_create_a_wallet.png)
+你可以访问 [https://staking.genechain.io](https://staking.genechain.io) 并点击 `Add GeneChain network` 来设置自定义网络.
 
-4. On the Help Us Improve MetaMask page, either click on `No Thanks` or `I Agree`, depending on whether you want to share non-sensitive data with MetaMask to improve user experience or not.  
+### 手工设置
 
-   ![](https://wiki.radarlab.org/assets/images/defi/uni101/a05_metamask_agreement.png)
+或者，你也可以参照如下步骤来自行设置GeneChain网络。
 
-5. You will be asked to create a new password. Create a strong password and click `Create`.  
+1. 打开 Metamask, 在 Network 下拉列表选择 "Custom RPC" 。
+   <img src="https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/custom-rpc.png" width="400px"/>
+2. 填写下列信息：
 
-   ![](https://wiki.radarlab.org/assets/images/defi/uni101/a06_metamask_new_password.png)
+  * 主网 Genenet
+    * Network Name: GeneChain
+    * New RPC URL: https://rpc.genechain.io
+    * Chain ID: 80
+    * Currency Symbol: RNA
+    * Block Explorer URL: https://scan.genechain.io
 
-6. Here you will be prompted to keep the seed secret key phrase. Click `CLICK HERE TO REVEAL SECRET WORDS` in a secure environment to display the secret key. Use a secure method to record these phrases.  
+  * 测试网 Adenine
+    * Network Name: GeneChain Adenine Testnet
+    * New RPC URL: https://rpc-testnet.genechain.io
+    * Chain ID: 8080
+    * Currency Symbol: tRNA
+    * Block Explorer URL: https://scan-testnet.genechain.io
 
-   _Note: This is the only basis for restoring your wallet account. Be aware that people who have these phrases can use these phrases to restore your wallet and manipulate the assets in it._  
 
-   ![](https://wiki.radarlab.org/assets/images/defi/uni101/a07_metamask_backup_phrase.png)
-
-7. Verify your secret phrase by selecting the previously generated phrase. When done, click `Confirm`.  
-
-   ![](https://wiki.radarlab.org/assets/images/defi/uni101/a09_metamask_confirm_phrase1.png)
-
-Now you will have your wallet and account initialized.
-
-## Setup Custom Network for GeneChain
-
-### Automatic setup
-
-You can visit [https://staking.genechain.io](https://staking.genechain.io) and click `Add GeneChain network` to setup custom network.
-
-### Manual setup
-
-Or, you can follow the following steps to set it up by your self.
-
-1. Open Metamask, and select "Custom RPC" from the Network Dropdown.  
-
-   ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/custom-rpc.png)
-
-2. Fill the blanks with following information.
-   * Main Genenet
-     * Network Name: GeneChain
-     * New RPC URL: [https://rpc.genechain.io](https://rpc.genechain.io)
-     * Chain ID: 80
-     * Currency Symbol: RNA
-     * Block Explorer URL: [https://scan.genechain.io](https://scan.genechain.io)
-   * Adenine Testnet
-     * Network Name: GeneChain Adenine Testnet
-     * New RPC URL: [https://rpc-testnet.genechain.io](https://rpc-testnet.genechain.io)
-     * Chain ID: 8080
-     * Currency Symbol: tRNA
-     * Block Explorer URL: [https://scan-testnet.genechain.io](https://scan-testnet.genechain.io)
-
-Click Save and all are set now!
-
+点击 Save 就全部设置完毕了。

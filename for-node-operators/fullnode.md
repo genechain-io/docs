@@ -1,12 +1,12 @@
-# Run A Fullnode
+# 在 GeneChain 上运行一个全数据节点
 
-## Quick Start
+## 快速开始
 
-### Step 1: Build `geneth` from source
+### 步骤 1: 从源代码构建 `geneth`
 
-Be sure that Go 1.13+ is already installed. Then run
+请确认已经安装 Go 1.13 或以上版本，然后运行
 
-```text
+```shell
 # Clone the geneth repo
 git clone https://github.com/genechain-io/geneth
 # Enter the folder containing geneth source
@@ -15,40 +15,40 @@ cd geneth
 make geneth
 ```
 
-### Step 2: Launch `geneth` to start a full node
+### 步骤 2: 运行 `geneth` 来启动一个全数据节点
 
-### Main Genenet
+### 主网 Genenet
 
-Main genenet will be available as soon as it is released. Running a full node on the main genenet is as simple as running
+主网 genenet 目前以上线。运行一个主网全数据节点，只需简单运行
 
-```text
+```shell
 $ build/bin/geneth console
 ```
 
-This will start the geneth client with access to the main genenet.
+这会启动一个连接到主网 genenet 的 `geneth` 客户端。
 
-### Adenine Testnet
+### 测试网 Adenine
 
-Running a full node on the Adenine testnet can be accomplished by appending a `--adenine` flag
+运行一个全数据的 Adenine 测试网节点，可以通过添加 `--adenine` 参数来完成
 
-```text
+```shell
 $ build/bin/geneth --adenine console
 ```
 
-This will start the geneth client with access to the Adenine testnet.
+这会启动一个连接到主网 Adenine 的 `geneth` 客户端。
 
-## Fullnode Benefits
 
-* The full blockchain data is stored on disk.
-* Provide RPC services.
-* Validate new blocks and transactions.
-* Verify states for accounts and contracts.
+## 全数据节点优势
 
-## Sync Mode
+* 完整的区块链数据都存储在磁盘上
+* 提供 RPC 服务
+* 验证新的区块和交易数据
+* 验证账户或者合约的状态
 
-Sync mode can be changed using the `--syncmode "<mode>"` argument where `<mode>` can be:
+## Sync 模式
 
-* Full: Downloads all blocks \(including headers, transactions, and receipts\) and generates the state of the blockchain incrementally by executing every block.
-* Fast \(Default\): Downloads all blocks \(including headers, transactions and receipts\), verifies all headers, and downloads the state and verifies it against the headers.
-* Light: Downloads all block headers, block data, and verifies some randomly.
+Sync 模式可以通过修改 `--syncmode "<模式>"` 参数达成，其中 `<模式>` 可以为：
 
+* Full: 下载所有区块数据（包含区块头，交易，和收据）并通过执行每一个区块的数据来增量生成区块链状态数据。
+* Fast (默认): 下载所有区块数据（包含区块头，交易，和收据），验证所有的区块头，根据区块头下载并验证区块量状态数据。
+* Light: 下载所有区块数据（包含区块头，交易，和收据），随机验证。
