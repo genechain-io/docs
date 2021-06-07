@@ -1,10 +1,12 @@
-# 主页
+---
+description: 欢迎访问 GeneChain 的文档。您可以在此处找到核心概念、用户指南和技术文档。
+---
 
-欢迎访问 GeneChain 文档。
+# 首页
 
 GeneChain 是⼀个去中⼼化⾼效安全公链，在⽀撑⾼性能交易的基础上，实现智能合约的兼容。GeneChain平台宗旨是为全球开发者提供低成本的创新设施和稳定的基础服务。
 
-关于 GeneChain 的详细介绍，请阅读[GeneChain简介](user-manual/introduction.md)。
+关于 GeneChain 的详细介绍，请阅读[GeneChain简介](introduction.md)。
 
 ## 主要内容:
 
@@ -25,3 +27,4 @@ GeneChain 是⼀个去中⼼化⾼效安全公链，在⽀撑⾼性能交易的�
 * [系统合约](for-developers/system-contracts.md)- GeneChain 系统合约的地址和描述
 
 侧边导航列有更多的文档导航。
+

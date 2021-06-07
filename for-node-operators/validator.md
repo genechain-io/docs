@@ -1,9 +1,8 @@
 # 验证人指南
 
-想要成为一个验证人，你首先需要运行一个挖矿(mining)模式的节点，并且这个节点绑定了已解锁的挖矿账户。然后将改账户注册(register)成为验证候选人。注册之后，你需要获得足够的质押权中来成为活跃节点或者进入头部候选人列表。
+想要成为一个验证人，你首先需要运行一个挖矿\(mining\)模式的节点，并且这个节点绑定了已解锁的挖矿账户。然后将改账户注册\(register\)成为验证候选人。注册之后，你需要获得足够的质押权中来成为活跃节点或者进入头部候选人列表。
 
-本文内容覆盖了前两个步骤，[质押挖矿](../user_manual/staking/)页面讲解了最后一个步骤，你可以在该页面了解质押权重的计算方式。如果你想了解更多关于 GeneChain 共识验证机制，可以参考 [Ribose 共识机制](./ribose_consensus_protocol/)一文。
-
+本文内容覆盖了前两个步骤，[质押挖矿](../user-manual/staking.md)页面讲解了最后一个步骤，你可以在该页面了解质押权重的计算方式。如果你想了解更多关于 GeneChain 共识验证机制，可以参考 [Ribose 共识机制](../for-developers/ribose-consensus-protocol.md)一文。
 
 ## 以挖矿模式运行节点
 
@@ -13,13 +12,13 @@
 
 你可以导入一个已经存在的账户，通过如下方式：
 
-```shell
+```bash
 build/bin/geneth account import <path/to/private_key_file>
 ```
 
 或者生成一个新的账户，通过运行：
 
-```shell
+```bash
 build/bin/geneth account new
 ```
 
@@ -27,7 +26,7 @@ build/bin/geneth account new
 
 挖矿模式可以通过执行 `geneth` 客户端时使用 `--mine` 和 `--unlock` 标识。请记得 `--unlock` 标记中使用在步骤1中提到的账户地址。
 
-```shell
+```bash
 # For mainnet
 build/bin/geneth --mine --unlock <your_miner_account>
 
@@ -57,7 +56,7 @@ build/bin/geneth --adenine --mine --unlock <your_miner_account>
 
 ### 提取矿工奖励
 
-区块奖励首先会被分配到矿工的待定收益(pending profit)中，待定收益可能会因不端行为被罚没。
+区块奖励首先会被分配到矿工的待定收益\(pending profit\)中，待定收益可能会因不端行为被罚没。
 
 每 86400 个区块，约 72 小时，待定收益的一半会被结算，被结算收益可以提取，结算后会记录最后一次结算的区块号，直到下一个86400区块才能再次结算。
 
@@ -66,3 +65,4 @@ build/bin/geneth --adenine --mine --unlock <your_miner_account>
 `getCandidateState` 可以用来查询待结算和可结算的数量详情。
 
 `withdrawMinerProfits` 可以用来领取已结算收益。
+
