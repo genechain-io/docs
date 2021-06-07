@@ -1,4 +1,4 @@
-# Introduction to GeneChain
+# Introduction
 
 GeneChain is a decentralized, efficient, and secure public chain, which realizes smart contract compatibility on the basis of supporting high-performance transactions. The GeneChain platform is designed to provide global developers with low-cost innovation facilities and stable infrastructure services.
 
@@ -28,10 +28,10 @@ The native token on the chain is RNA; the transaction consumes RNA as an on-chai
 
 ## High Performance, Low Cost
 
-* TPS(Transaction Per Second)：2000+
+* TPS\(Transaction Per Second\)：2000+
 * Block Production Time: 3s
-
 
 ## Distributed Governance
 
 Block producers rely on pledges of all users to run for public chain nodes. Users can become validators or support other validators by staking RNA and ARM. The validators can set the transfer ratio of block rewards to attract more users to pledge their own nodes, and the transfer rewards will be distributed according to the pledge ratio of all users under this validator.
+
