@@ -1,23 +1,8 @@
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-**Table of Contents**
-<!-- code_chunk_output -->
-
-- [Ribose Validator HowTo](#ribose-validator-howto)
-  - [Run a node in mining mode](#run-a-node-in-mining-mode)
-    - [Step 1: Create an account as miner](#step-1-create-an-account-as-miner)
-    - [Step 2: Start a node with mining enabled](#step-2-start-a-node-with-mining-enabled)
-  - [Register as a validator candidate](#register-as-a-validator-candidate)
-  - [Others](#others)
-    - [Set block reward receiver](#set-block-reward-receiver)
-    - [Withdraw miner profits](#withdraw-miner-profits)
-
-<!-- /code_chunk_output -->
-
 # Ribose Validator HowTo
 
 To become a validator, first you need to run a node in mining mode with an account unlocked. Then register this account as a candidate for validators. After registration, you need to earn enough staking power to become an active validator or a top candidate.
 
-This page covers the first two steps. [[Staking]] page covers the last step, you can learn how staking power is calculated there. If you want to learn more about how validation works in GeneChain, please refer to [[Ribose Consensus Protocol]].
+This page covers the first two steps. [Staking](../user_manual/staking.md) page covers the last step, you can learn how staking power is calculated there. If you want to learn more about how validation works in GeneChain, please refer to [[Ribose Consensus Protocol]].
 
 ## Run a node in mining mode
 
@@ -71,7 +56,7 @@ To better protect miners, we strongly recommend you to set a different account a
 ### Withdraw miner profits
 Block rewards are distributed into miner's pending profit at first. Pending profit might be punished to avoid misbehavior.
 
-Only half of pending profit can be settled after 28800 blocks which is about 24 hours since last settlement.
+Only half of pending profit can be settled after 86400 blocks which is about 72 hours since last settlement.
 
 Every time a miner produces a block, it's pending profit is checked and automatically settled into miner's miner profit if possible, which can be withdrew then. This is also done when making a withdraw.
 

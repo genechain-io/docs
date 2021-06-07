@@ -1,16 +1,3 @@
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-**Table of Contents**
-<!-- code_chunk_output -->
-
-- [How to Setup Metamask For GeneChain](#how-to-setup-metamask-for-genechain)
-  - [Installation](#installation)
-  - [Create Account](#create-account)
-  - [Setup Custom Network for GeneChain](#setup-custom-network-for-genechain)
-    - [Automatic setup](#automatic-setup)
-    - [Manual setup](#manual-setup)
-
-<!-- /code_chunk_output -->
-
 # How to Setup Metamask For GeneChain
 
 Setting up Metamask for GeneChain can be achieved in three steps

@@ -1,6 +1,8 @@
-**Please note:** This wiki is for **Adenine TESTNET** only. You can only get testing RNA on Adenine testnet following this guide.
-
 # How to Get Testing RNA
+
+**Please note:** This page is for **Adenine TESTNET** only. Tokens on testnet have no value and you can get them for free.
+
+You can get testing RNA on Adenine testnet following this guide.
 
 1. Open Metamask, or visit [[Metamask]] and follow the steps to install and setup Metamask if you do not have one yet.
 2. Click your account to copy your account address.  

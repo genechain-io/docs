@@ -1,16 +1,5 @@
-<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
-**Table of Contents**
-<!-- code_chunk_output -->
-
-- [Ribose Staking HowTo](#ribose-staking-howto)
-  - [Navigate to the staking page](#navigate-to-the-staking-page)
-  - [Authorize the staking page](#authorize-the-staking-page)
-  - [Select a candidate to stake](#select-a-candidate-to-stake)
-  - [Withdraw mining rewards](#withdraw-mining-rewards)
-
-<!-- /code_chunk_output -->
-
 # Ribose Staking HowTo
+
 Staking can be accomplished by calling the `stake` method of the Ribose system contract. You can find more information in the contract [source code](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol).
 
 A simpler way is to use the [staking page](https://staking.genechain.io). The staking page for Adenine testnet is [here](https://staking-testnet.genechain.io).
