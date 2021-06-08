@@ -7,7 +7,10 @@
 
 * [如何配置MetaMask](user-manual/metamask.md)
 * [测试网水龙头](user-manual/testnet_faucet.md)
-* [质押挖矿](user-manual/staking.md)
+* [质押挖矿](user-manual/staking/README.md)
+  * [如何获得ARM](user-manual/staking/how-to-get-arm.md)
+* [常见问题](user-manual/faq/README.md)
+  * [交易在MetaMask上一直等待](user-manual/faq/jiao-yi-zai-metamask-shang-yi-zhi-deng-dai.md)
 
 ## 节点运行者 <a id="for-node-operators"></a>
 
@@ -18,4 +21,10 @@
 
 * [Ribose共识机制](for-developers/ribose-consensus-protocol.md)
 * [系统合约](for-developers/system-contracts.md)
+
+---
+
+* [论坛](https://forum.dera.finance/category/5/genechain)
+* [官网](https://genechain.io)
+* [Github](https://github.com/genechain-io)
 

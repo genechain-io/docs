@@ -10,7 +10,7 @@
 
 打开 [质押页面\(staking page\)](https://staking.genechain.io)。
 
-1. 如果没有安装 MetaMask, 点击 `Click here to install MetaMask` 按钮或者按照 [在 Metamask 钱包中配置 GeneChain](metamask.md)的说明来安装.  
+1. 如果没有安装 MetaMask, 点击 `Click here to install MetaMask` 按钮或者按照 [在 Metamask 钱包中配置 GeneChain](../metamask.md)的说明来安装.  
 
     ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png)
 

@@ -2,7 +2,7 @@
 
 想要成为一个验证人，你首先需要运行一个挖矿\(mining\)模式的节点，并且这个节点绑定了已解锁的挖矿账户。然后将改账户注册\(register\)成为验证候选人。注册之后，你需要获得足够的质押权中来成为活跃节点或者进入头部候选人列表。
 
-本文内容覆盖了前两个步骤，[质押挖矿](../user-manual/staking.md)页面讲解了最后一个步骤，你可以在该页面了解质押权重的计算方式。如果你想了解更多关于 GeneChain 共识验证机制，可以参考 [Ribose 共识机制](../for-developers/ribose-consensus-protocol.md)一文。
+本文内容覆盖了前两个步骤，[质押挖矿](../user-manual/staking/)页面讲解了最后一个步骤，你可以在该页面了解质押权重的计算方式。如果你想了解更多关于 GeneChain 共识验证机制，可以参考 [Ribose 共识机制](../for-developers/ribose-consensus-protocol.md)一文。
 
 ## 以挖矿模式运行节点
 
