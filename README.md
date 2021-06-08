@@ -16,7 +16,7 @@ For common users
 
 * [Metamask](user-manual/metamask.md) - How to setup metamask to get access to Genechain
 * [Testnet Faucet](user-manual/testnet_faucet.md) - How to get Testing RNA on GeneChain Adenine Testnet
-* [Staking](user-manual/staking.md) - How to stake a validator and share mining rewards
+* [Staking](user-manual/staking/) - How to stake a validator and share mining rewards
 
 For node operators
 

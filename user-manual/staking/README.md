@@ -8,7 +8,7 @@ A simpler way is to use the [staking page](https://staking.genechain.io). Here i
 
 Open the [staking page](https://staking.genechain.io).
 
-1. If MetaMask is not installed, click the `Click here to install MetaMask` button or follow the steps in [MetaMask](metamask.md) to install one.  
+1. If MetaMask is not installed, click the `Click here to install MetaMask` button or follow the steps in [MetaMask](../metamask.md) to install one.  
 
     ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png)
 

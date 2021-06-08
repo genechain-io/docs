@@ -2,7 +2,7 @@
 
 To become a validator, first you need to run a node in mining mode with an account unlocked. Then register this account as a candidate for validators. After registration, you need to earn enough staking power to become an active validator or a top candidate.
 
-This page covers the first two steps. [Staking](../user-manual/staking.md) page covers the last step, you can learn how staking power is calculated there. If you want to learn more about how validation works in GeneChain, please refer to [Ribose Consensus Protocol](../for-developers/ribose-consensus-protocol.md).
+This page covers the first two steps. [Staking](../user-manual/staking/) page covers the last step, you can learn how staking power is calculated there. If you want to learn more about how validation works in GeneChain, please refer to [Ribose Consensus Protocol](../for-developers/ribose-consensus-protocol.md).
 
 ## Run a node in mining mode
 

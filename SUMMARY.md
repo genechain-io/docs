@@ -7,7 +7,10 @@
 
 * [How to Use MetaMask](user-manual/metamask.md)
 * [Testnet Faucet Guide](user-manual/testnet_faucet.md)
-* [Staking Guide](user-manual/staking.md)
+* [Staking Guide](user-manual/staking/README.md)
+  * [How to get ARM](user-manual/staking/how-to-get-arm.md)
+* [FAQ](user-manual/faq/README.md)
+  * [Transaction always pending on MetaMask](user-manual/faq/transaction-always-pending-on-metamask.md)
 
 ## For node operators
 
@@ -18,4 +21,10 @@
 
 * [Ribose Consensus Protocol](for-developers/ribose-consensus-protocol.md)
 * [System Contracts](for-developers/system-contracts.md)
+
+---
+
+* [Forum](https://forum.dera.finance/category/5/genechain)
+* [Website](https://genechain.io)
+* [Github](https://github.com/genechain-io)
 
