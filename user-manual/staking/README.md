@@ -12,18 +12,18 @@ MetaMask 是必需的，需要在与质押页面交互之前正确配置。如�
 
 您需要将质押页面与 MetaMask 连接并授权质押页面使用您的账户与 Ribose 系统合约进行交互。这可以通过以下步骤来完成。
 
-1. 在[质押页面](https://staking.genechain.io)点击`连接钱包`。   ![](../../.gitbook/assets/staking-connect-1.png)
-2. 选择 MetaMask   ![](../../.gitbook/assets/staking-connect-2.png)
-3. 选择您要使用的帐户，然后单击`下一步`。   ![](../../.gitbook/assets/staking-connect-3.png)
-4. 点击`连接`完成连接。   ![](../../.gitbook/assets/staking-connect-4.png)
+1. 在[质押页面](https://staking.genechain.io)点击`连接钱包`。 ![](../../.gitbook/assets/staking-connect-1.png)
+2. 选择 MetaMask ![](../../.gitbook/assets/staking-connect-2.png)
+3. 选择您要使用的帐户，然后单击`下一步`。 ![](../../.gitbook/assets/staking-connect-3.png)
+4. 点击`连接`完成连接。 ![](../../.gitbook/assets/staking-connect-4.png)
 
 ## 切换到基因链
 
 如果 MetaMask 中的网络已经切换到 GeneChain，则跳过此步骤。
 
-1. 点击`Switch to GeneChain Mainnet`通知MetaMask切换网络。   ![](../../.gitbook/assets/staking-connect-5.png)
-2. 如果您的 MetaMask 中未配置 GeneChain，则会显示添加 GeneChain 的提示。点击`Approve`完成添加。   ![](../../.gitbook/assets/staking-connect-6.png)
-3. 点击`Switch network`完成网络切换。   ![](../../.gitbook/assets/staking-connect-7.png)
+1. 点击`Switch to GeneChain Mainnet`通知MetaMask切换网络。 ![](../../.gitbook/assets/staking-connect-5.png)
+2. 如果您的 MetaMask 中未配置 GeneChain，则会显示添加 GeneChain 的提示。点击`Approve`完成添加。 ![](../../.gitbook/assets/staking-connect-6.png)
+3. 点击`Switch network`完成网络切换。 ![](../../.gitbook/assets/staking-connect-7.png)
 
 ## 质押候选人
 
@@ -72,3 +72,4 @@ MetaMask 是必需的，需要在与质押页面交互之前正确配置。如�
 ![](../../.gitbook/assets/staking-withdraw.png)
 
 可能会出现两个提示，第一个是结算未结算的奖励，第二个是领取所有已结算的奖励。您需要全部确认以完成领取挖矿奖励。
+
