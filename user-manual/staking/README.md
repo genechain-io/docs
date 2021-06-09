@@ -2,51 +2,74 @@
 
 Staking can be accomplished by calling the `stake` method of the Ribose system contract. You can find more information in the contract [source code](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol).
 
-A simpler way is to use the [staking page](https://staking.genechain.io). Here is a simple guide on how to use the staking page.
+A simple way is to use the [staking page](https://staking.genechain.io). Here is a simple guide on how to use the staking page.
 
-## Navigate to the staking page
+## Pre-request
 
-Open the [staking page](https://staking.genechain.io).
+MetaMask is required and needs to be configured properly before interacting with staking page. If not, follow the steps in [How to Use MetaMask](../metamask.md) to install and configure MetaMask first.
 
-1. If MetaMask is not installed, click the `Click here to install MetaMask` button or follow the steps in [MetaMask](../metamask.md) to install one.  
+## Connect wallet
 
-    ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png)
+You need to connect the staking page with MetaMask which will authorize the staking page to use your account to interact with the Ribose system contract. This can be done through the following steps.
 
-2. If MetaMask is not configured for GeneChain, a prompt will be shown. 
-   1. Click the `Add GeneChain network` button to inform MetaMask of adding GeneChain network.  
+1. Click `Connnect Wallet` on [staking page](https://staking.genechain.io).   ![](../../.gitbook/assets/staking-connect-1.png) 
+2. Choose MetaMask  ![](../../.gitbook/assets/staking-connect-2.png) 
+3. Select the account you want to use and click `Next`.  ![](../../.gitbook/assets/staking-connect-3.png) 
+4. Click `Connect` to finish the connection. ![](../../.gitbook/assets/staking-connect-4.png)
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network.png)
+## Switch to GeneChain
 
-   2. Scroll down or click close to show `Approve` button if not shown.  
+Skip this if the network in MetaMask has already been switched to GeneChain.
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve1.png)
+1. Click `Switch to GeneChain Mainnet` to inform MetaMask to switch network.  ![](../../.gitbook/assets/staking-connect-5.png) 
+2. If GeneChain is not configured in your MetaMask, a prompt will be shown to add GeneChain. Click `Approve` to complete adding. ![](../../.gitbook/assets/staking-connect-6.png)
+3. Click `Switch network` to finish network switching.  ![](../../.gitbook/assets/staking-connect-7.png) 
 
-   3. Click `Approve` in MetaMask to approve this action.  
+## Stake a candidate
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve2.png)
+You can now find all `Active Validators` and `Validator Candidates` and select an active validator or a validator candidate to stake by clicking the `Stake` button.
 
-   4. Click `Switch network` to switch to GeneChain.  
+![](../../.gitbook/assets/staking-stake-1.png)
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-switch-network.png)
+Enter the amount of RNA and ARM that you want to stake and then click the `Stake` button bellow.
 
-## Authorize the staking page
+![](../../.gitbook/assets/staking-stake-2.png)
 
-You need to authorize the staking page to use your account to interact with the Ribose system contract.
+If you want to stake ARM and the Ribose system contract is not allowed to use your ARM yet, a prompt will be shown and you need to click `Confirm` to approve the Ribose system contract to use your ARM.
 
-This is automatically prompted the first time you open the staking page. Just select the account you want to use and click `Next`.  
-![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-select-account.png)
+![](../../.gitbook/assets/staking-stake-3.png)
 
-Then click `Connect` to finish the connection.  
-![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-connect.png)
+Wait for the approving transaction to be confirmed and then a prompt will be shown which is the staking transaction. Now you can click `Confirm` to send the staking transaction.
 
-## Select a candidate to stake
+![](../../.gitbook/assets/staking-stake-4.png)
 
-You can now find all available candidates in `Top Candidates` section and select a candidate and click `stake` along with the candidate to start staking.  
-![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-candidates.png)![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-stake.png)
+After the staking transaction is confirmed, you can find the staking record in `My Staked Nodes`.
 
-Note: 1. You can stake either RNA or ARM or both. You can stake with out ARM, but if you want to, you need to stake at least 3 ARMs. 2. If you want to stake your ARM, you need to approve the Ribose system contract to use your ARM by clicking the `Approve` next to the ARM input while staking. 3. You can not unstake within 86400 blocks which is about 72 hours since your last staking.
+### **Staking Notes**
 
-## Withdraw mining rewards
+1. You can stake at most 5 candidates.
+2. You can not unstake a candidate within 86400 blocks which is about 72 hours since your last staking to the same candidate.
+3. You can stake either RNA or ARM or both. But according to the [calculation of staking power](../../for-developers/ribose-consensus-protocol.md#staking-power), staking power can not be greater than zero without staking RNA.
+4. You can stake with out ARM, but if you want to, you need to stake at least 3 ARMs.
+5. If you decide to stake a validator candidate, do remember that you can get staking reward only if this validator candidate becomes an active validator and only top 21 validator candidates are selected as active validators.
 
-After staking a candidate, you'll find your unsettled profit and estimated daily reward in `Staked Candidates` section. You can settle your unsettled reward one by one or just click `Settle All Unsettled Rewards`. Then you will find your settled profit on right side, and you can click `Withdraw` bellow to withdraw you settled profit into your balance.
+## Unstake a candidate
+
+You can unstake a candidate by clicking `Redeem` button in your staked nodes.
+
+![](../../.gitbook/assets/staking-unstake-1.png)
+
+Enter the amount you want to unstake and click `Redeem`
+
+![](../../.gitbook/assets/staking-unstake-2.png)
+
+Click `Confirm` to send the transaction and wait for confirmation.
+
+## Claim mining rewards
+
+Your unclaimed rewards including both settled and unsettled rewards can be found in the `Assets` area. You can claim them by clicking the `Claim` button.
+
+![](../../.gitbook/assets/staking-withdraw.png)
+
+Two prompts might be shown, the first one is to settle unsettled rewards, the second one is to withdraw all settled rewards. You need to confirm them all to complete the claiming.
 
