@@ -1,56 +1,74 @@
 # 质押挖矿
 
-质押可以通过调用 Ribose 系统合约的 `stake` 方法来完成。你可以通过[合约的开源代码](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol)来了解更多的信息。
+质押可以通过调用 Ribose 系统合约的 `stake` 方法来完成。您可以在合约[源代码](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol)中找到更多信息。
 
-一个更简单的方法是通过 [质押页面（staking page）](https://staking.genechain.io)来完成质押。
+一个简单的方法是使用 [质押页面](https://staking.genechain.io)。这是有关如何使用质押页面的简单指南。
 
-下文是质押页面的使用说明。
+## 软件要求
 
-## 打开质押页面
+MetaMask 是必需的，需要在与质押页面交互之前正确配置。如果没有，请先按照[如何使用MetaMask](../metamask.md)中的步骤安装和配置MetaMask。
 
-打开 [质押页面\(staking page\)](https://staking.genechain.io)。
+## 连接钱包
 
-1. 如果没有安装 MetaMask, 点击 `Click here to install MetaMask` 按钮或者按照 [在 Metamask 钱包中配置 GeneChain](../metamask.md)的说明来安装.  
+您需要将质押页面与 MetaMask 连接并授权质押页面使用您的账户与 Ribose 系统合约进行交互。这可以通过以下步骤来完成。
 
-    ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-install-metamask.png)
+1. 在[质押页面](https://staking.genechain.io)点击`连接钱包`。   ![](../../.gitbook/assets/staking-connect-1.png)
+2. 选择 MetaMask   ![](../../.gitbook/assets/staking-connect-2.png)
+3. 选择您要使用的帐户，然后单击`下一步`。   ![](../../.gitbook/assets/staking-connect-3.png)
+4. 点击`连接`完成连接。   ![](../../.gitbook/assets/staking-connect-4.png)
 
-2. 如果 GeneChain 网络没有配置，会显示如下提示： 
-   1. 点击 `Add GeneChain network` 按钮来通知 MetaMask 添加 GeneChain 网络。
+## 切换到基因链
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network.png)
+如果 MetaMask 中的网络已经切换到 GeneChain，则跳过此步骤。
 
-   2. 如果 `Approve` 没有显示，向下滚动或者点击 `close` 来显示 `Approve` 按钮。
+1. 点击`Switch to GeneChain Mainnet`通知MetaMask切换网络。   ![](../../.gitbook/assets/staking-connect-5.png)
+2. 如果您的 MetaMask 中未配置 GeneChain，则会显示添加 GeneChain 的提示。点击`Approve`完成添加。   ![](../../.gitbook/assets/staking-connect-6.png)
+3. 点击`Switch network`完成网络切换。   ![](../../.gitbook/assets/staking-connect-7.png)
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve1.png)
+## 质押候选人
 
-   3. 在 MetaMask 点击 `Approve` 按钮来批准这个操作。 
+您现在可以找到所有`运行中的验证节点`和`候选节点`，并通过单击`质押`按钮选择要质押的活跃验证者或候选验证者。
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-add-network-approve2.png)
+![](../../.gitbook/assets/staking-stake-1.png)
 
-   4. 点击 `Switch network` 来切换到 GeneChain 网络。 
+输入您想要质押的 RNA 和 ARM 的数量，然后单击下面的`质押`按钮。
 
-      ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-switch-network.png)
+![](../../.gitbook/assets/staking-stake-2.png)
 
-## 授权质押页面
+如果您想质押ARM，并且还未允许Ribose系统合约使用您的ARM，则会出现提示，您需要点击`确认`以批准Ribose系统合约使用您的ARM。
 
-你需要授权质押页面使用你的 MetaMask 账户来与 Ribose 系统合约交互。
+![](../../.gitbook/assets/staking-stake-3.png)
 
-你第一次打开质押页面的时候会自动提示授权，只需选择你希望使用的账户并点击 `Next`。  
- ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-select-account.png)
+授权使用ARM的交易被确认后会显示质押交易，现在您可以点击`确认`发送质押交易。
 
-然后点击 `Connect` 来完成链接。 ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-connect.png)
+![](../../.gitbook/assets/staking-stake-4.png)
 
-## 选择一个候选人来质押
+质押交易确认后，您可以在`我质押的节点`中找到质押记录。
 
-你可以在 `Top Candidates` 部分 找到所有可质押的候选人列表。选择一个候选人并点击 `stake` 来开始质押。 ![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-candidates.png)![](https://raw.githubusercontent.com/wiki/genechain-io/geneth/assets/staking-stake.png)
+### 注意事项
 
-提示:
+1. 您最多可以质押 5 个候选人。
+2. 您需在上一次质押同一候选人 86400 个区块（约72小时）后才可取回对同一候选人的质押。
+3. 您可以质押 RNA 或 ARM 或两者。但是根据[staking power的计算](../../for-developers/ribose-consensus-protocol.md#staking-power)，在不质押RNA的情况下，staking power将始终为零。
+4. 可以不使用 ARM 进行质押，但如果您想质押，则至少需要质押 3 个 ARM。
+5. 如果您决定质押一名验证人候选，请记住，只有当该候选验证人成为活跃验证人时您才能获得质押奖励，并且，只有前 21 名候选验证人被选为活跃验证人。
 
-1. 你可以质押 RNA 和 ARM 中的一种或两种，你可以不质押ARM，但是一旦你想质押 ARM，必须质押不小于 3 个。
-2. 如果你想质押 ARM，你需要授权\(approve\) Ribose 系统合约来使用你的 ARM，这需要点击 ARM 输入框旁边 `Approve` 按钮完成。
-3. 在质押后的 86400 个区块，也就是约 72 个小时之内，不能进行解押操作。
+## 取回对候选人的质押
+
+您可以通过单击质押节点中的`赎回`按钮取会对候选人的质押。
+
+![](../../.gitbook/assets/staking-unstake-1.png)
+
+输入您要取回的金额，然后单击`赎回`
+
+![](../../.gitbook/assets/staking-unstake-2.png)
+
+点击`确认`发送交易并等待确认。
 
 ## 领取质押收益
 
-为某个候选人质押之后，你可以在 `Staked Candidates` 部分找到你的未结算收益\(unsettled profit\)和预估日收益\(estimated daily reward\)。你可以逐个结算\(settle\)你的未结算收益，或者点击`Settle All Unsettled Rewards`按钮结算所有收益。然后你将在右侧找到你的已结算收益\(settled profit\)，并可以通过点击 `Withdraw` 领取你的已结算收益到你的账户余额。
+您的待领取奖励，包括已结算和未结算的奖励，都可以在`资产`区域找到。您可以通过单击`领取`按钮来领取它们。
 
+![](../../.gitbook/assets/staking-withdraw.png)
+
+可能会出现两个提示，第一个是结算未结算的奖励，第二个是领取所有已结算的奖励。您需要全部确认以完成领取挖矿奖励。
