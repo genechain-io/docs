@@ -73,3 +73,26 @@ Your unclaimed rewards including both settled and unsettled rewards can be found
 
 Two prompts might be shown, the first one is to settle unsettled rewards, the second one is to withdraw all settled rewards. You need to confirm them all to complete the claiming.
 
+## Settings
+
+Settings can be opened by clicking the gear icon in the upper right corner.
+
+![](../../.gitbook/assets/staking-settings-1.png)
+
+### RADR Address
+
+You can set your RADR address to get your staked VBC included in original RADR network issuance calculation. Make sure you entered the correct address as we know nothing about your RADR address. But you can change it later. For more on how this works, please refer to [How to get ARM](how-to-get-arm.md#set-memo-to-get-included-in-original-radr-network-issuance-calculation).
+
+![](../../.gitbook/assets/staking-settings-2.png)
+
+### Token Approvals
+
+In this setting, there are two switches.
+
+1. The first one is to allow the Ribose system contract to use your ARM. This is required when staking ARM.
+2. The second one is to allow ARM contract to use your VBC, which is required when minting ARM with VBC. You can find more information in [How to get ARM](how-to-get-arm.md#stake-vbc-to-get-arm).
+
+You can turn them on or off at any time. 
+
+![](../../.gitbook/assets/staking-settings-3.png)
+
