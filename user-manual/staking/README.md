@@ -81,7 +81,7 @@ MetaMask 是必需的，需要在与质押页面交互之前正确配置。如�
 
 ### RADR地址
 
-您可以设置您的 RADR 地址，让您质押的 VBC 包含在原始 RADR 网络发行计算中。 请确保您输入了正确的地址，因为我们对您的 RADR 地址一无所知。 但是您可以稍后更改它。 有关其工作原理的更多信息，请参阅[如何获得ARM](how-to-get-arm.md#she-zhi-memo-yi-bao-han-zai-yuan-shi-radr-wang-luo-fa-hang-shou-yi-ji-suan-zhong)。
+您可以设置您的 RADR 地址，让您质押的 VBC 包含在原始 RADR 网络发行计算中。 请确保您输入了正确的地址，因为我们对您的 RADR 地址一无所知。 但是您可以稍后更改它。 有关其工作原理的更多信息，请参阅[如何获得ARM](how-to-get-arm.md#she-zhi-bei-zhu)。
 
 ![](../../.gitbook/assets/staking-settings-2.png)
 
@@ -92,7 +92,7 @@ MetaMask 是必需的，需要在与质押页面交互之前正确配置。如�
 1. 第一个是允许 Ribose 系统合约使用你的 ARM。 这是抵押 ARM 必需的。 
 2. 第二个是允许 ARM 合约使用您的 VBC，这在使用 VBC 铸造 ARM 时必需的。 
 
-您可以在[如何获得ARM](how-to-get-arm.md#tong-guo-zhi-ya-vbc-huo-de-arm)中找到更多信息。 您可以随时打开或关闭它们。
+您可以在[如何获得ARM](how-to-get-arm.md#mint)中找到更多信息。 您可以随时打开或关闭它们。
 
 ![](../../.gitbook/assets/staking-settings-3.png)
 
