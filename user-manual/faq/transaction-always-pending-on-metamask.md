@@ -1,14 +1,62 @@
 # Transaction always pending on MetaMask
 
-If you send a transaction that cannot be packaged or you have used the testnet before or encountered other problems, you may encounter that the nonce value of your newly sent transaction is higher than the nonce value that can be processed. Then, your transaction may always be in a pending state, which is a known nonce conflict problem. For example, if your account nonce has just reached 10, but the newly sent transaction nonce is 12, the newly sent transaction will be waiting for processing and cannot be packaged.
+There are usually three reasons why transactions have been pending and cannot be packaged by the network.
 
-## **Solution 1**
+1. The Nonce of the transaction is not the next Nonce that should be packaged
+2. The gas price of the transaction is 0
+3. Insufficient gas limit for transaction
 
-If you are using the desktop version of MetaMask and can find the first transaction that was blocked, you can click `Accelerate` or `Cancel`, and then increase the `Gas Price` and `Gas Limit` to try to allow the network to package the transaction normally. Note: `Accelerate` and `Cancel` are also available on MetaMask mobile, but it does not seem to be able to customize the Gas Price when accelerating or canceling.  
-[![queue\_en.png](https://forum.dera.finance/assets/uploads/files/1621567202075-queue_en.png)](https://forum.dera.finance/assets/uploads/files/1621567202075-queue_en.png)  
+You can check which problem you are experiencing according to the following steps
+
+## Check Nonce
+
+Open [https://scan.genechain.io](https://scan.genechain.io) and enter your address in the query box in the upper right corner to view your transaction history
+
+![](../../.gitbook/assets/faq-pending-1.png)
+
+Find the latest transaction you sent, and click the transaction hash to view the details of this transaction. Please note: Make sure that the number 1 in the figure is your account address, because transactions sent to you by other people will also appear here. Then click 2 in the figure to query the transaction details
+
+![](../../.gitbook/assets/faq-pending-2.png) 
+
+Record the Nonce value of this transaction, assuming it is `N`, the Nonce value of the next packaged transaction can only be greater than this value by 1
+
+![](../../.gitbook/assets/faq-pending-3.png) 
+
+Open MetaMask to query transaction history, MetaMask desktop can click on the activity to view transactions in the queue, MetaMask mobile needs to click on the transaction history in the menu.
+
+![](../../.gitbook/assets/faq-pending-4.png) 
+
+Click on the top transaction in MetaMask, which is usually the first transaction blocked
+
+![](../../.gitbook/assets/faq-pending-5.png) 
+
+Check the Nonce value of this transaction, suppose it is `M`
+
+![](../../.gitbook/assets/faq-pending-6.png) 
+
+If the Nonce of blocked transaction \(M\) and the Nonce of last packaged transaction \(N\) are not continuous, that is, `M≠N+1`, you need to [reset the Nonce](transaction-always-pending-on-metamask.md#reset-nonce) and resend the transaction with Nonce as `N+1`.
+
+If Nonce is continuous, that is, `M=N+1`, you need to continue to check Gas Price and Gas Limit 
+
+## Check Gas Price
+
+It is recommended to check the Gas Price \(fuel price\) first. When Gas Price is 0, it will not be packaged by the network. Please refer to [Speed Up or Cancel](transaction-always-pending-on-metamask.md#speed-up-or-cancel) the transaction and increase the Gas Price to allow the network to package this transaction.
+
+![](../../.gitbook/assets/faq-pending-7.png) 
+
+If the Gas Price is not 0, the usual cause is that the Gas Limit is too low, making the network unable to package transactions. Please refer to [Speed Up or Cancel](transaction-always-pending-on-metamask.md#speed-up-or-cancel) the transaction, increase the Gas Limit and increase the Gas Price at the same time to allow the network to package this transaction.
+
+## **Speed Up or Cancel**
+
+Click the `Speed Up` or `Cancel` button under the pending transaction
+
+[![queue\_en.png](https://forum.dera.finance/assets/uploads/files/1621567202075-queue_en.png)](https://forum.dera.finance/assets/uploads/files/1621567202075-queue_en.png)
+
+Click `Advanced` to increase Gas Price \(increase by 1 each time\) and Gas Limit \(increase by more than 0.5 times each time\) when accelerating or canceling, try to allow the network to pack this transaction normally. Note: You can click to speed up and cancel on MetaMask mobile, but you cannot customize the Gas Price during acceleration or cancellation, so it is very likely to be unsuccessful. At this time, it is recommended to [reset the Nonce](transaction-always-pending-on-metamask.md#reset-nonce) and resend the transaction.
+
 [![adjust\_gas\_en.png](https://forum.dera.finance/assets/uploads/files/1621567206433-adjust_gas_en.png)](https://forum.dera.finance/assets/uploads/files/1621567206433-adjust_gas_en.png)
 
-## **Solution 2**
+## **Reset Nonce**
 
 If you cannot speed up or cancel or still cannot get packaged, in this case, you need to click `Reset Account` in `Settings -> Advanced` to reset the random number. This action will reset your random number and clear your transaction history, but will not change the balance in your account or require you to re-enter the mnemonic phrase.
 
