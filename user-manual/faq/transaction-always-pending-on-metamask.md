@@ -34,7 +34,7 @@ Check the Nonce value of this transaction, suppose it is `M`
 
 ![](../../.gitbook/assets/faq-pending-6.png) 
 
-If the Nonce of blocked transaction \(M\) and the Nonce of last packaged transaction \(N\) are not continuous, that is, `M≠N+1`, you need to [reset the Nonce](transaction-always-pending-on-metamask.md#reset-nonce) and resend the transaction with Nonce as `N+1`.
+If the Nonce of blocked transaction \(M\) and the Nonce of last packaged transaction \(N\) are not continuous, that is, `M≠N+1`, you need to [custom the nonce](transaction-always-pending-on-metamask.md#custom-nonce) of [reset the Nonce](transaction-always-pending-on-metamask.md#reset-nonce) and resend the transaction with Nonce as `N+1`.
 
 If Nonce is continuous, that is, `M=N+1`, you need to continue to check Gas Price and Gas Limit 
 
@@ -52,9 +52,23 @@ Click the `Speed Up` or `Cancel` button under the pending transaction
 
 [![queue\_en.png](https://forum.dera.finance/assets/uploads/files/1621567202075-queue_en.png)](https://forum.dera.finance/assets/uploads/files/1621567202075-queue_en.png)
 
-Click `Advanced` to increase Gas Price \(increase by 1 each time\) and Gas Limit \(increase by more than 0.5 times each time\) when accelerating or canceling, try to allow the network to pack this transaction normally. Note: You can click to speed up and cancel on MetaMask mobile, but you cannot customize the Gas Price during acceleration or cancellation, so it is very likely to be unsuccessful. At this time, it is recommended to [reset the Nonce](transaction-always-pending-on-metamask.md#reset-nonce) and resend the transaction.
+Click `Advanced` to increase Gas Price \(increase by 1 each time\) and Gas Limit \(increase by more than 0.5 times each time\) when accelerating or canceling, try to allow the network to pack this transaction normally. Note: You can click to speed up and cancel on MetaMask mobile, but you cannot customize the Gas Price during acceleration or cancellation, so it is very likely to be unsuccessful. At this time, it is recommended to [custom the nonce](transaction-always-pending-on-metamask.md#custom-nonce) and resend the transaction.
 
 [![adjust\_gas\_en.png](https://forum.dera.finance/assets/uploads/files/1621567206433-adjust_gas_en.png)](https://forum.dera.finance/assets/uploads/files/1621567206433-adjust_gas_en.png)
+
+## Custome Nonce to Replace Transaction <a id="custom-nonce"></a>
+
+You can turn on Custom Nonce in the settings to fill in the Nonce of a transaction manually as following.
+
+![](../../.gitbook/assets/faq-pending-8.png) 
+
+![](../../.gitbook/assets/faq-pending-9.png) 
+
+![](../../.gitbook/assets/faq-pending-10.png)
+
+After turning on the switch of the custom transaction Nonce, you can fill in the required Nonce when sending the transaction. Fill in the next Nonce when sending a new transaction. **Remember** to increase the Gas Price \(needs to be higher than the pending transaction with the same nonce by at least 1, otherwise you will encounter the `replacement transaction underpriced` error\) and Gas Limit \(it is recommended to increase by more than 0.5 times, otherwise you may encounter the same pending problem\)
+
+ ![](../../.gitbook/assets/faq-pending-11.png) 
 
 ## **Reset Nonce**
 
