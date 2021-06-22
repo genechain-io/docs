@@ -11,6 +11,7 @@
   * [如何获得ARM](user-manual/staking/how-to-get-arm.md)
 * [常见问题](user-manual/faq/README.md)
   * [交易在MetaMask上一直等待](user-manual/faq/jiao-yi-zai-metamask-shang-yi-zhi-deng-dai.md)
+  * [常见错误消息](user-manual/faq/chang-jian-cuo-wu-xiao-xi.md)
 
 ## 节点运行者 <a id="for-node-operators"></a>
 
