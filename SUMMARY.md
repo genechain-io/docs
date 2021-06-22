@@ -11,6 +11,7 @@
   * [How to get ARM](user-manual/staking/how-to-get-arm.md)
 * [FAQ](user-manual/faq/README.md)
   * [Transaction always pending on MetaMask](user-manual/faq/transaction-always-pending-on-metamask.md)
+  * [Common Errors](user-manual/faq/common-errors.md)
 
 ## For node operators
 
