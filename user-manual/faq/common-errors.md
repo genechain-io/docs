@@ -14,3 +14,7 @@ If replacing a transaction is not your goal, simply increase the nonce to be one
 
 This error message means that the newly sent transaction uses a `nonce` that has already been used. You can check your `nonce` by reviewing your last confirmed transaction in the [blockchain explorer](https://scan.genechain.io).
 
+## transferFrom failed
+
+This error message usually means that the amount of ERC20 token passed exceeds the number you have. Reducing the amount of ERC20 token passed may solve the problem.
+
