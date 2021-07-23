@@ -42,7 +42,7 @@ Now after catching up with the latest block, you will have a node that is ready 
 
 A validator candidate is registered by calling the `register` method of the Ribose system contract. You can find more information in the contract [source code](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol). Either a web3 client or the scan page can be used to complete the registration.
 
-**Note:** You need to use the miner account to call the `register` method as the caller account will be registered.
+**Note:** You need to use the miner account to call the `register` method as the caller account will be registered. Newly registered candidate will not enter the list of top 50 validator candidates until been staked more than 10,000 RNA, therefore they will not be able to appear on the [staking page](https://staking.genechain.io) until then.
 
 ## Others
 
