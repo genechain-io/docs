@@ -42,7 +42,7 @@ build/bin/geneth --adenine --mine --unlock <your_miner_account>
 
 验证人注册是通过调用 Ribose 系统合约的 `register` 方法来完成的。你可以在合约的[源代码](https://github.com/genechain-io/system-contract/blob/master/contracts/Ribose.sol)了解到更多的信息。你可以通过 web3 客户端或者[区块链浏览器页面](https://scan.genechain.io/address/0x0000000000000000000000000000000000001000/write-contract)来完成注册。
 
-**注意:** 你需要用挖矿账户来调用`register`方法，因为抵用账户会被注册为候选人。
+**注意:** 你需要用挖矿账户来调用`register`方法，因为调用合约的账户会被注册为候选人。
 
 ## 其他
 
