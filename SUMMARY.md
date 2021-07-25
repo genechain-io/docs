@@ -5,6 +5,7 @@
 
 ## 用户手册 <a id="user-manual"></a>
 
+* [关于区块链和GeneChain的基础知识](user-manual/guan-yu-qu-kuai-lian-he-genechain-de-ji-chu-zhi-shi.md)
 * [如何配置MetaMask](user-manual/metamask.md)
 * [测试网水龙头](user-manual/testnet_faucet.md)
 * [质押挖矿](user-manual/staking/README.md)

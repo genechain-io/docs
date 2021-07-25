@@ -18,5 +18,11 @@
 
 该错误信息通常代表传递的ERC20 token数额超过了持有的数量，通常减小传递的ERC20 token数量即可解决问题。
 
+## out of gas
+
+如果您看到消息“out of gas”，则您的交易已执行但失败。 换句话说，交易在执行时出现错误，因为它需要更多的气体，超过了发送交易时设置的gas limit。 这类似于驾驶汽车时汽油用量已到达限制使用量，但并没有到达目的地。
+
+为避免再次出现“out of gas”错误，您需要增加下一笔交易的gas limit。 这可以在发送下一笔交易之前完成。 在[此处](../guan-yu-qu-kuai-lian-he-genechain-de-ji-chu-zhi-shi.md#shen-me-shi-qi-ti-gas)了解有关 gas、gas 价格和 gas 限额的更多信息。
+
 
 
