@@ -5,6 +5,7 @@
 
 ## User Manual
 
+* [Basics of Blockchain and GeneChain](user-manual/basics-of-blockchain-and-genechain.md)
 * [How to Use MetaMask](user-manual/metamask.md)
 * [Testnet Faucet Guide](user-manual/testnet_faucet.md)
 * [Staking Guide](user-manual/staking/README.md)

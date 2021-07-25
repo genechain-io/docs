@@ -18,3 +18,9 @@ This error message means that the newly sent transaction uses a `nonce` that has
 
 This error message usually means that the amount of ERC20 token passed exceeds the number you have. Reducing the amount of ERC20 token passed may solve the problem.
 
+## out of gas
+
+If you see the message "out of gas", your transaction was executed but failed. In other words, there was an error completing the transaction because it requires more gas than you attach to the transaction. It's similar to running out of gas when driving a car, except imagine that you reached your destination without being able to get _out_ of the car.
+
+To avoid another "out of gas" error, you will need to increase the gas limit of your next transaction. This can be done just before sending your next transaction. Learn more about gas, gas price and gas limit [here](../basics-of-blockchain-and-genechain.md#what-is-gas).
+
