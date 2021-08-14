@@ -29,4 +29,5 @@
 * [论坛](https://forum.dera.finance/category/5/genechain)
 * [官网](https://genechain.io)
 * [Github](https://github.com/genechain-io)
+* [English](https://docs.genechain.io/v/master/)
 
